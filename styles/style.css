@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    
+    
+}
+
+.container
+{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.512), rgba(0, 0, 0, 0.529)), url("../assets/bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 30px 15px 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    width: 50vw;
+    gap: 50px;
+   
+}
+
+.line{
+   width: 2px;
+   height: 30px;
+   background-color: #FFFFFF;
+
+}
+
+.logo img{
+    width: 70px;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+
+main{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 80px;
+    font-family: sans-serif;
+}
+
+main p{
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+button{
+    
+    
+    border: none;
+    font-weight: 700;
+    background-color: #B90EC5;
+    color: #FFFFFF;
+    font-family:sans-serif;
+    cursor: pointer;
+}
+
+.request-btn button{
+    border-radius: 5px;
+    font-size: 15px;
+    padding:10px 15px;
+}
+
+.buy-btn button{
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 10px;
+}
